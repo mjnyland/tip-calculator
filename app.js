@@ -33,6 +33,8 @@ function handleReset() {
     } else if (input.value > 0) {
       input.value = 0;
     }
+    tipAmount.textContent = "0";
+    totalAmount.textContent = "0";
   }
 }
 
